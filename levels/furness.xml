@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>855</mapX>
+        <mapY>150</mapY>
+        <title>Furness</title>
+        <foreground>#ad89ad</foreground>
+    </meta>
+    <dialogue>
+        <line from="Furness Mountain Explorer">
+            Are you here for the expedition up Furness mountain?
+        </line>
+        <line from="You">
+            No, I'm afraid I must inform you about the White Rose Clan. They have returned. As the new Hero of
+            Lancaster, I seek to learn more about your guild - what exactly do you do again?
+        </line>
+        <line from="Furness Mountain Explorer">
+            The Furness mountain is a huge challenge. It is a true test of endurance and strength. Even though
+            the magical properties of the mountain allow you to jump higher, it is still a difficult challenge
+            not many are capable of.
+        </line>
+        <line from="Furness Mountain Explorer">
+            The last Hero of Lancaster was a natural, completing the climbing mountain in only a day.
+            Could you do the same?
+        </line>
+        <line from="You">
+            Just a day? Certainly seems like a challenge. I'll give it a shot.
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>00000000000000000000000031111111</row>
+                <row>00000000000000000000000031111111</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000gggggg</row>
+                <row>00000000000000000000000000111111</row>
+                <row>00000000000000000000000000111111</row>
+                <row>0000000000000000100000000011d111</row>
+                <row>0000000000000000100000000011d111</row>
+                <row>00000000000000ggd00000000111d111</row>
+                <row>0000000000000000dg00000001111111</row>
+                <row>0000000000000000d100000001111111</row>
+                <row>0000000001100000d133333331111111</row>
+                <row>00P00001111000001111111111111111</row>
+                <row>0000000111133333111111111ddd1111</row>
+                <row>ggggggg1111111111111111111ddd111</row>
+                <row>ddddddd11111111111111dd111111111</row>
+                <row>ddddddd111111111111dddd111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111100000111111111</row>
+                <row>0000000000011dd11100000000000001</row>
+                <row>000000000001d1d11100000000000001</row>
+                <row>00000000000111000000000011111001</row>
+                <row>10000001100111000000000011111001</row>
+                <row>10000111100011000000000011111001</row>
+                <row>10000001100001000000000111111001</row>
+                <row>10000001100000000000000311111001</row>
+                <row>10000001100000000000000311111001</row>
+                <row>1000000d000000000000000311111001</row>
+                <row>13333331000000000000000011111001</row>
+                <row>ddddddd100000000gggg000011111001</row>
+                <row>ddddddd11000000001dd000011111001</row>
+                <row>ddddddd1100000000011000011111000</row>
+                <row>ddddddd1100000000011000011111000</row>
+                <row>ddddddd1133333333311333311111000</row>
+                <row>dddddddddggggggggggggggg11111ggg</row>
+                <row>ddddddddd11111111111111111111ddd</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>0000000000000000ggggggg000000001</row>
+                <row>00000000000000gggdd000dg00000000</row>
+                <row>00000000000gggdd000000ddg0000000</row>
+                <row>00000000000dd000000000ddd0000000</row>
+                <row>0000000000000000000000dddggggggg</row>
+                <row>00000000000000000000000003333331</row>
+                <row>00000000311111110000000000000001</row>
+                <row>000000000331d1000000000000000001</row>
+                <row>00000000001dd1000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000111111111</row>
+                <row>0000000000000000000000011111111d</row>
+                <row>gggg133110001111333333311111111d</row>
+                <row>dddddd111333111111111111111111dd</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>
+

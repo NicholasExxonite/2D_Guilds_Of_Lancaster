@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>480</mapX>
+        <mapY>607</mapY>
+        <title>Bowland</title>
+        <foreground>#960a00</foreground>
+    </meta>
+    <dialogue>
+        <line from="You">
+            Are you the master Bowman? I am here to learn more about the art of archery. The White Rose Clan
+            has returned and I wish to be the new Hero of Lancaster.
+        </line>
+        <line from="Bowland Master Bowman">
+            Yes. It is strange for an outsider like you to attempt to learn a discipline like archery. However,
+            if you do wish to be the Hero of Lancaster, I guess it is natural for you to be here.
+        </line>
+        <line from="Bowland Master Bowman">
+            Like you said, archery is very much an art. Perhaps it will help if you practised against real,
+            moving training targets.
+            This way, please.
+        </line>
+        <line from="You">
+            Wait, already??
+        </line>
+        <line from="Bowland Master Bowman">
+            Yes of course. Archery is simple to learn. First, you fix your posture. Then you learn how to breathe.
+            But of course, you need to practice first. Anyone can do it, but only mastery is hard...
+        </line>
+        <line from="Bowland Master Bowman">
+            Here is the door to the practice room. Good luck.
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects/>
+            <tileMap>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>000000000000000000000000S0000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>0000000000000000000S000000000000</row>
+                <row>00000000000000000000000011111111</row>
+                <row>00000000000000000000011111111111</row>
+                <row>00000000000000000001111111111111</row>
+                <row>00P00000001100000001111111111111</row>
+                <row>00000000111100000001111111111111</row>
+                <row>00000011111100000001111111111111</row>
+                <row>11111111111133333331111111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects/>
+            <tileMap>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000000000000000000000000011</row>
+                <row>00000000G00000000000000000000011</row>
+                <row>0000000000000000000000000000S011</row>
+                <row>00000000000000000000000000000000</row>
+                <row>11111111100000000000000000000000</row>
+                <row>1111111110000000000S000000001111</row>
+                <row>11111111100000000000000001111111</row>
+                <row>11111111100000000000001111111111</row>
+                <row>11111111100000000001111111111111</row>
+                <row>11111111100001100001111111111111</row>
+                <row>11111111100001100001111111111111</row>
+                <row>11111111100001100001111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects/>
+            <tileMap>
+                <row>10000000000000000000000000000000</row>
+                <row>10000000000000000000000000000S00</row>
+                <row>10000000000000000000000000000000</row>
+                <row>10000000000000000000000000000000</row>
+                <row>10000111111111111111111111111111</row>
+                <row>11000S00000000000000000000000001</row>
+                <row>11100000000000000000000000000001</row>
+                <row>11110000000000000000000000000001</row>
+                <row>11111111111111100000000000000001</row>
+                <row>00000000000001111000000000000001</row>
+                <row>00000000000003111110000000000001</row>
+                <row>11111000000000331111111111100001</row>
+                <row>1111111100000000000000000S000011</row>
+                <row>11111111111000000000000000000111</row>
+                <row>11111111111000000000000000011111</row>
+                <row>11111111111111100111100111111111</row>
+                <row>11111111111111100111100111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects/>
+            <tileMap>
+                <row>00000111111111111111111111111111</row>
+                <row>00000011111111111111111111111111</row>
+                <row>00000001111111111111111111111111</row>
+                <row>00000000111111111111111111111111</row>
+                <row>11100000111111111111111111111111</row>
+                <row>11100000111110111111111111111111</row>
+                <row>11100000111100111111111111111111</row>
+                <row>11100000110000110001111111111111</row>
+                <row>11100000110000110000033111111111</row>
+                <row>11100000110000110000000331111111</row>
+                <row>11100000330000330000000003331111</row>
+                <row>11100000000000000000000000003111</row>
+                <row>111000000000000000000S0000000000</row>
+                <row>11100000000000000000000000000000</row>
+                <row>11100000330000330000000000000000</row>
+                <row>11100000110000110000111111111111</row>
+                <row>11111111111111111111111111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>
+

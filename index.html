@@ -1,0 +1,394 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Guilds of Lancaster</title>
+    <style type="text/css">
+
+        @font-face {
+            font-family: Title;
+            src: url("euphorigenic.ttf");
+        }
+
+        @font-face {
+            font-family: Pixel;
+            src: url("Pixellari.ttf");
+        }
+
+        html {
+            scroll-behavior: smooth;
+            user-select: none;
+        }
+
+        *, *::after, *::before {
+            -webkit-user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        body {
+            left: 0;
+            top: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: Pixel, sans-serif;
+            background-color: rgb(55, 71, 79);
+            color: white;
+        }
+
+        #title {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+
+            margin-top: 1.5em;
+            margin-bottom: 0.4em;
+        }
+
+        .section {
+            background-color: rgb(35, 40, 47);
+            align-items: center;
+            justify-content: center;
+            margin: 0 2em 1em 2em;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .section-title {
+            background-color: rgb(84, 110, 122);
+            font-size: 28px;
+            margin-bottom: 0.5em;
+            padding: 1em;
+        }
+
+        .inline-image {
+            position: relative;
+            left: 7%;
+        }
+
+        footer {
+            background-color: rgb(84, 110, 122);
+            text-align: left;
+            font: bold 16px sans-serif;
+            margin-top: 3em;
+            padding: 0 1em;
+            color: #e1e1e1
+        }
+
+        header {
+            background-color: rgb(84, 110, 122);
+            opacity: 1;
+            margin: 0 auto;
+            width: 85vw;
+            height: 4em;
+            display: flex;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 1em;
+            z-index: 99;
+        }
+
+        .nav {
+            flex: 1;
+            display: flex;
+            transition: all .2s ease-in-out;
+        }
+
+        .header_text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            opacity: 0.6;
+        }
+
+        .nav:hover {
+            box-shadow: inset 0 -3px 0 0 #ffffff;
+        }
+
+        .header_text:hover {
+            opacity: 1;
+        }
+
+        .section-contents {
+            padding: 1.5em;
+        }
+
+        i {
+            color: #ffc497;
+            font-style: normal;
+        }
+
+        img {
+            image-rendering: pixelated;
+        }
+
+        .anchor {
+            padding-top: 7rem;
+            margin-top: -7rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="nav" id="two">
+        <a href="#story" class="header_text"><p>Story</p></a>
+    </div>
+    <div class="nav" id="three">
+        <a href="#controls" class="header_text"><p>Controls and Actions</p></a>
+    </div>
+    <div class="nav" id="four">
+        <a href="#viewthegame" class="header_text"><p>Navigating the Interface</p></a>
+    </div>
+    <div class="nav" id="five">
+        <a href="#enemies" class="header_text"><p>Enemies</p></a>
+    </div>
+    <div class="nav" id="six">
+        <a href="#abilities" class="header_text"><p>Abilities</p></a>
+    </div>
+    <div class="nav" id="seven">
+        <a href="#damage" class="header_text"><p>Damage</p></a>
+    </div>
+    <div class="nav" id="eight">
+        <a href="#finish" class="header_text"><p>Finishing Levels</p></a>
+    </div>
+</header>
+<div id="title">
+    <img src="res/misc/ui/title.png"/>
+</div>
+
+<span class="anchor" id="story"></span>
+<div class="section">
+    <div class="section-title">Story</div>
+    <div class="section-contents">
+        The medieval of the town of Lancaster: a peaceful town made up of 8 powerful guilds, each with their own
+        ability. The guilds were once united - 40 years ago during the Battle of the Roses, in which the Hero of
+        Lancaster, who brought together all 8 guilds through the mastery of their abilities defeated the evil White Rose
+        Clan. But since then, the guilds have slowly started to dissipate.
+
+        <p>Nowadays, life is much more simple. No longer about defending Lancaster, the guilds have slowly adapted their
+            ways to be more peaceful.</p>
+
+        <p>However, this all changed when a young talent from the Cartmel Guild noticed a change in the landscape over
+            the Great Lonsdale Wall, they have come to the realisation that the great White Rose Clan has come to claim
+            what they tried to capture 40 years ago.</p>
+
+        <p>Now, you the player must unite all the guilds of Lancaster, earn their power and challenge the invaders.</p>
+    </div>
+
+    <img style="position:relative; left:35%; width:30%;" src="res/misc/level-select.png">
+    <br><br><br><br><br>
+</div>
+
+<span class="anchor" id="controls"></span>
+<div class="section">
+    <div class="section-title">Controls and Actions</div>
+    <div class="section-contents">
+        <p>Movement controls:</p>
+        <ul>
+            <li> Use <i>arrow keys &#8592; &#8594;</i> or <i>A D</i> to move left and right respectively.</li>
+            <li> Press <i>&#8593;</i>, <i>Space</i> or <i>W</i> to jump.
+        </ul>
+
+        <img class="inline-image" src="res/player/player-idle.png"/>
+
+        <p>Abilities:</p>
+        <ul>
+            <li> Use J or 1 to activate the ability in the first slot.</li>
+            <li> Use K or 2 to activate the ability in the second slot.</li>
+            <li> Use L or 3 to activate the ability in the third slot.</li>
+        </ul>
+
+        <img class="inline-image" src="res/player/abilities/player-cartmel-prettybutterfly.png"/>
+        <img class="inline-image" style="padding-left:50px;padding-right:50px;"
+             src="res/player/abilities/player-bowland-1.png"/>
+        <img class="inline-image" src="res/player/abilities/player-fylde-1.png"/>
+
+    </div>
+</div>
+
+<span class="anchor" id="viewthegame"></span>
+<div class="section">
+    <div class="section-title">Navigating the Interface</div>
+    <div class="section-contents">
+        <p>Main Menu:<br></p>
+        <ul>
+            <li> Press <i>New Game</i> to start a new game. This will delete and previous saves.</li>
+            <li> Press <i>Continue Game</i> to continue a saved game.</li>
+            <li> Press <i>Credits</i> to view the credits.</li>
+            <li> Press <i>Exit Game</i> to exit the game.</li>
+        </ul>
+        <br>
+        <p>Level Select Screen:<br></p>
+        <ul>
+            <li> Use the <i>&#8592; &#8594;</i> keys or <i>A D</i> keys to navigate through the map.
+            <li> Upon selecting the map that you intend to play, press <i>Enter</i>.
+        </ul>
+        <br>
+        <p>Ability Select Screen:<br></p>
+        <ul>
+            <li> Before the level starts, you will gain a preview of what lies ahead.
+            <li> With that information in mind, you will be prompted to choose your abilities.
+            <li> Use the <i>&#8592; &#8594;</i> keys or <i>A D</i> keys to cycle through the abilities.</li>
+            <li> Upon highlighting the ability of your choice, press Enter to put the ability in your slot.</li>
+            <li> Alternatively, you may press the slot button (<i>1</i>, <i>2</i>, <i>3</i> or <i>J</i>, <i>K</i>, <i>L</i>) to manually insert a ability into that
+                specified slot.
+        </ul>
+        <br>
+        <p>Pause Menu:<br></p>
+        <ul>
+            <li> Press <i>Escape</i> in game or during the Level Select Screen to pause the game.</li>
+            <li> Select the option of your choice and press <i>Enter</i>.</li>
+            <li> Options will differ depending if you're in the Level Select Screen or whether you are in game.
+        </ul>
+        <br>
+
+        <!--
+                <p>Level screen - upon entering a level the game presents you with the level by panning across each screen in
+                    the level, giving you an idea of what lies ahead. You are then prompted to choose the abilities you can use
+                    in the level, with the level specific ability already chosen for you so you can get to know it and unlock it
+                    after you complete the level. Browse the abilities you have unlocked by using the ← → keys and use the 1, 2
+                    or 3 keys to assign them to each slot, although whilst playing a new level, the specific ability will be
+                    selected for you, and will be placed in slot 1, press the space key when you are ready to begin the level.
+                    Finish levels by getting through each screen by moving from the right side to the left, after finishing the
+                    last screen you are presented with a completion time and the choice to go back to the map menu</p>
+        
+                <p>Pause menu - Pressing Escape in either the map menu, or the level screen pauses the game and opens the pause
+                    menu, choose the option with the Enter button. Whilst in the map menu, pressing Escape brings up the pause
+                    menu with the options to exit the game back to desktop, or to restart the game. Whilst in a level opening
+                    the pause menu gives you the option to exit to desktop or to return to the map menu.</p> -->
+
+    </div>
+</div>
+
+<span class="anchor" id="enemies"></span>
+<div class="section">
+    <div class="section-title">Enemies</div>
+    <div class="section-contents">
+        <p><i>Grunt Goose</i><br> Most common and basic Infantry in the armies of White Rose Clan. Whilst rather stupid,
+            these
+            grunts damage the player when they come into contact, although they are susceptible to being damaged from
+            above. </p>
+
+        <img class="inline-image" src="res/enemies/grunt-idle-1.png"/>
+
+        <p><i>Goose Spitter</i><br> The deadly Spitter of the White Rose army are a ranged unit that shoot a toxic ball
+            of
+            spit across the screen. If the player is hit by one of these projectiles they take damage.</p>
+
+        <img class="inline-image" src="res/enemies/spitter-1.png"/>
+
+        <p><i>Spiked Goose</i><br> A higher ranked Grunt Goose, these geese have a helmet to show their rank, which is
+            coated
+            in an array of deadly spikes that'll be a challenge to get around.</p>
+
+        <img class="inline-image" src="res/enemies/spike-idle-1.png"/>
+
+        <p><i>Spikes</i> <br> An enemy that doesn't move, coming into contact with spikes will deal damage the player. </p>
+
+        <img class="inline-image" src="res/misc/spike.png"/>
+
+    </div>
+</div>
+
+<span class="anchor" id="abilities"></span>
+<div class="section">
+    <div class="section-title">Abilities</div>
+    <div class="section-contents">
+
+        <p><i> Bow of Bowland </i><br>The Bow of Bowland shoots an arrow horizontally across the screen damaging any enemy
+            that
+            may be in the way. Face the direction in which you want to shoot, and press the activate key. </p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/bowland_icon.png"/>
+
+        <p><i>Wings of Cartmel </i><br>Use the Wings of Cartmel by jumping from a height and glide back down to the ground
+            by
+            holding down the activate key</p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/cartmel_icon.png"/>
+
+        <p><i>Calm of County </i><br>You become one with nature and forget all of life's troubles, everything around you is
+            temporarily slowed down once the activate key is pressed.</p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/county_icon.png"/>
+
+
+        <p><i>Furness Footwear </i><br>Allows you to jump an extra time immediately after jumping the first time, this
+            process allows the player to reach higher heights, to areas which may not normally be accessible to
+            them. Press the active key immediately after jumping to reach extra height. </p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/furness_icon.png"/>
+
+        <p><i>Fylde Windwalker </i><br>Gives the player the speed of the wind, allowing them to dash forward a short
+            distance, upon pressing the activation key.</p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/fylde_icon.png"/>
+
+        <p><i>Grizedale Concoction </i><br>Upon drinking the Grizedale concoction, the player becomes more hardy and
+            resistant to damage for a short period of time. The ability is active as soon as the key is pressed.</p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/grizedale_icon.png"/>
+
+        <p><i>Lonsdale Roar </i><br>Unleash the roar of the Lonsdale Lion to terrify nearby enemies freezing them in place.
+            The ability is active as soon as the key is pressed.</p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/lonsdale_icon.png"/>
+
+        <p><i>Pendle Potion </i><br>Activating the County Concoction hurls a flask of poison that smashes on contact with a
+            surface or entity. Upon smashing, the concoction spills a deadly poison across the floor which disables
+            any enemy that touches it.</p>
+
+        <img class="inline-image" width=5% src="res/misc/ability_icons/pendle_icon.png"/>
+    </div>
+</div>
+
+<span class="anchor" id="damage"></span>
+<div class="section">
+    <div class="section-title">Damage and Loss of Life</div>
+    <div class="section-contents">
+        <ul>
+            <li> The player starts with 1 health point.
+            <li> If the player is damaged by an enemy, they will lose a health point.</li>
+            <li> If the player's health point goes below 1, they will die and will be moved to the start of the screen.
+            <li> Some abilities may allow the player to take extra damage.
+            <li> Some levels can be hard. If you are having trouble finishing a level, feel free to take a break and
+                return to it at another time.
+        </ul>
+
+    </div>
+</div>
+
+<span class="anchor" id="finish"></span>
+<div class="section">
+    <div class="section-title">Finishing a Level</div>
+    <div class="section-contents">
+        <ul>
+            <li>Levels are composed of multiple screens, complete each screen in order to finish the level. For most
+                levels, there are three screens.
+            </li>
+
+            <li>Screens are completed by moving from the left hand side to the right, this is the same for levels.</li>
+
+            <li>After finishing the last screen of the level the player is presented with the "completed level" screen
+                which gives you the completion time of the level.
+            </li>
+            <li> If a level has not been completed yet, you will need to use the corresponding ability within that
+                level.
+            <li> If a level is completed has not been completed before, you will earn the new ability, which can be used
+                from that point in the game.
+            </li>
+        </ul>
+    </div>
+
+</div>
+<!-- ///// -->
+
+<footer>
+    <p class="f_text">2020, HashPizza Game Development</p>
+</footer>
+</body>

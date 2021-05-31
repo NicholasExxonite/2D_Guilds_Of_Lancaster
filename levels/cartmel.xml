@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>1597</mapX>
+        <mapY>727</mapY>
+        <title>Cartmel</title>
+        <foreground>#82053f</foreground>
+    </meta>
+    <dialogue>
+        <line>
+            (You are standing on the eastern wall near the Grizedale guild complex. There are two Grizedale
+            guards on patrol, who are barely awake.)
+        </line>
+        <line from="You">
+            What is happening over there? That can't possibly be... WAKE UP you lazy good-for-nothings!!
+        </line>
+        <line from="Grizedale Guard 1">
+            ............
+        </line>
+        <line from="Grizedale Guard 1">
+            Huh..... what's the problem?
+        </line>
+        <line from="You">
+            Are you blind, look over the wall, I better tell the supreme master!
+        </line>
+        <line>
+            (You run to the Cartmel grand hall, the Grizedale guards fall asleep again)
+        </line>
+        <line from="Cartmel's Supreme Master">
+            Ah yes, our brightest and most talented student. What is it?
+        </line>
+        <line from="You">
+            I don't believe it myself. The grass over the wall has changed colour. We need to inform the rest of
+            the guilds. They are coming back!
+        </line>
+        <line from="Cartmel's Supreme Master">
+            Hmm. This is worrying. Our town is not ready for battle. Our guilds are uncooperative. Our troops
+            are not prepared. The Hero of Lancaster is no longer alive, and I think it is time for someone
+            to take the mantle.
+        </line>
+        <line from="Cartmel's Supreme Master">
+            I need you to go to each guild and learn their way. Whether you are prepared or not, you will
+            need to become the new Hero of Lancaster.
+        </line>
+        <line from="You">
+            I will do what I must to protect us. Let me try the Cartmel test... let me earn the Wings of
+            Cartmel!
+        </line>
+        <line from="Cartmel's Supreme Master">
+            You may. But be cautious, there may be White Rose Clan scouts in the area...
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row> //Screen number 1
+                <row>10000000000000000000003100000000</row>
+                <row>10000000000000000000003100000000</row>
+                <row>10P00000000000000000003100000001</row>
+                <row>10000000000000000000003111000001</row>
+                <row>11110000000000000000003100000001</row>
+                <row>11110000330000000000003100000001</row>
+                <row>11110000000000000000003100000111</row>
+                <row>11110000000000000033003100000001</row>
+                <row>11110000000000000000000100000001</row>
+                <row>11110000000000000000000111100001</row>
+                <row>11110000000000000000000000000001</row>
+                <row>11110000003300000000000000000111</row>
+                <row>11110000000000000000000000000111</row>
+                <row>11110000000000000000000110011111</row>
+                <row>11110000000000000000000113311111</row>
+                <row>11113333333333333333333111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row> //Screen number 2
+                <row>00000000003111111111111111111111</row>
+                <row>00000000003111111111111111011111</row>
+                <row>11110000003111111111111111101111</row>
+                <row>11130000003111111111111111110111</row>
+                <row>11130000003111000000000000000011</row>
+                <row>11130000003111111111111111110111</row>
+                <row>11113000031111111111111111101111</row>
+                <row>11113000031111111111111111011111</row>
+                <row>11113000031111111111111111111111</row>
+                <row>11113000031000000000031000000000</row>
+                <row>11111300311000000000031000000000</row>
+                <row>11111100111000000000000000000000</row>
+                <row>11111100000000001000000000010001</row>
+                <row>11111100000000001000000001113331</row>
+                <row>11111100111100001000001003111111</row>
+                <row>11111133111133331333111333111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row> //Screen number 3
+                <row>10000000000000000111111111111111</row>
+                <row>10000000000000000111111111111111</row>
+                <row>10000000001100000111111111111111</row>
+                <row>10000011111130000333111111111111</row>
+                <row>10000000110000000000100000000003</row>
+                <row>10000000110000000000100000000000</row>
+                <row>11100000110000000000100000000000</row>
+                <row>10000000113333333000100000000000</row>
+                <row>10000000110000000000100000000003</row>
+                <row>00000011110000000000111100000001</row>
+                <row>00000000110000000000100000000001</row>
+                <row>00000000110003333333100000000111</row>
+                <row>11100000110000000000000000111111</row>
+                <row>11100011110000000000000000011111</row>
+                <row>11133311110000011111111000011111</row>
+                <row>11111111113333311111111333311111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>

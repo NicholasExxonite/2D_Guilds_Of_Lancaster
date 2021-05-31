@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>1102</mapX>
+        <mapY>330</mapY>
+        <title>Fylde</title>
+        <foreground>#db8000</foreground>
+    </meta>
+    <dialogue>
+        <line from="Fylde Windmaster">
+            Hello there, I have been expecting you, Hero of Lancaster. Just like 40 years ago when the Geese
+            came, the  wind has changed slightly. Unlike 40 years ago, it almost feels as if they are stronger.
+            I better teach you the ways of the wind quickly.
+        </line>
+        <line from="You">
+            The Cartmelian and Fylde guilds have always been close. It is good to see my master's old friend.
+        </line>
+        <line from="Fylde Windmaster">
+            Yes. It is unfortunate the rest of our guilds cannot see past our differences.
+        </line>
+        <line from="You">
+            Well, perhaps you can teach me how to Fylde Windwalk. I will show the rest of the guild members
+            that it does not matter which guild one comes from - what matters is the test itself!
+        </line>
+        <line from="Fylde Windmaster">
+            You are wise beyond your years. Whereas the Wings of Cartmel allow you to slow your rate of
+            descent for a happy landing, our Dash ability will allow you to cut through the air quickly!
+            Use the speed to your advantage!
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>00000000001111111111111111000000</row>
+                <row>00000000003333333333311111000000</row>
+                <row>00000000000000000000033333000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000000000000000000000000000000</row>
+                <row>00000110000111111111111111111111</row>
+                <row>00011100000001111000011111111111</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>11111110000111111000011110000001</row>
+                <row>00000010000100001000010000000001</row>
+                <row>00000000000000000000000000000111</row>
+                <row>0P000000000000000000000000011111</row>
+                <row>00000000000000000000000001111111</row>
+                <row>ggggggg0000gggggg0000ggggddddddd</row>
+                <row>ddddddd3333dddddd3333ddddddddddd</row>
+                <row>ddddddd1111dddddd1111ddddddddddd</row>
+                <row>ddddddd1111dddddd1111ddddddddddd</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>00000001111111111111111111000000</row>
+                <row>00000001111111111111111111000000</row>
+                <row>00000001100G00000000000G01000000</row>
+                <row>00000001100000000000000001000000</row>
+                <row>00000001100000000000000001000000</row>
+                <row>00000001111111111111111111000000</row>
+                <row>11110001111111110011111111000000</row>
+                <row>11110001100001100001111111000000</row>
+                <row>11110001000001100000111111000000</row>
+                <row>11110000000001100001111110000000</row>
+                <row>11110000000001100001111110000000</row>
+                <row>11110001100000000001111110000000</row>
+                <row>11110001100000000000000000000ggg</row>
+                <row>1111000110G000000000000000011ddd</row>
+                <row>11113331100000000001111111111ddd</row>
+                <row>11111111100000000001111111111ddd</row>
+                <row>111111111ggggggggggggggddddddddd</row>
+                <row>111111111ddddddddddddddddddddddd</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000100000001</row>
+                <row>00000000000000000000000100000001</row>
+                <row>00000000000000000000111100000S01</row>
+                <row>00000000000000000000000000000001</row>
+                <row>00000000000000000000000100000001</row>
+                <row>00000gg000000000000000010000011g</row>
+                <row>000ggdd0000000000000000100000S01</row>
+                <row>000dddd0000000000000000000000001</row>
+                <row>gggdddd000gggggggggggggg00000001</row>
+                <row>ddddddd0000000000000000000000111</row>
+                <row>ddddddd0000000000000000000000000</row>
+                <row>ddddddd0000000000000000000000000</row>
+                <row>dddddddgg333gggggg3333ggdddddddd</row>
+                <row>dddddddddddddddddddddddddddddddd</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>
+

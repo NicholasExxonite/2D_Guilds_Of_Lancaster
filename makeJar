@@ -1,0 +1,7 @@
+find ./src/ -name '*.java' > s
+javac -d ./release -cp $1 @s
+cd ./release
+jar -cvfm $2 ../src/META-INF/MANIFEST.MF ./*
+#jar csv $2 ./release/*
+cp $1 ./jsfml.jar
+cd ..

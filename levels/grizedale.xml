@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>765</mapX>
+        <mapY>630</mapY>
+        <title>Grizedale</title>
+        <foreground>#0557a3</foreground>
+    </meta>
+    <dialogue>
+        <line from="Grizedale Party-goer">
+            Wow! It's strange to see another Guild member turning up to one of our gatherings!
+            Are you here to join us?
+        </line>
+        <line from="You">
+            Thanks, but I am not really here to party. I here to see if the Knights of Grizedale would be willing to
+            join me in defending the town. The White Rose Clan are back!
+        </line>
+        <line from="Grizedale Party-goer">
+            What? They're really coming back? The Knights of Grizedale disbanded a long time ago, our priorities
+            have shifted over the years to have more... fun I guess. Having more fun just makes life so much
+            better, you know?
+        </line>
+        <line from="Grizedale Party-goer">
+            That's how our alchemists came up with this new concoction! Apparently, it boosts your vitality!
+            I'm afraid we can't help with an army, but perhaps a concoction might help?
+        </line>
+        <line from="You">
+            A concoction may help. So is having a little bit more fun in life. How do I get it?
+        </line>
+        <line from="Grizedale Party-goer">
+            Oh! If you want to take home a refillable bottle of The Grizedale Concoction, you're gonna need to
+            pass the drinking challenge! No one has done it yet!
+        </line>
+        <line from="You">
+            Where do I sign up?
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>1P000000000000000111111111111111</row>
+                <row>10000000000000000111111111111111</row>
+                <row>11100000000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100011000000000111111111111111</row>
+                <row>11100000000000000000000000001111</row>
+                <row>11100000000000000000000000000000</row>
+                <row>11100000000000000000000000000000</row>
+                <row>11133333333333333333333111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000000000000111110031</row>
+                <row>10000000001111111000000111110031</row>
+                <row>10000000000111110000000111110031</row>
+                <row>10000000000000000000000111100031</row>
+                <row>11100000000000000000000001300031</row>
+                <row>11111100000000000000000S01300031</row>
+                <row>11111110000000000000000001300031</row>
+                <row>11111110000000000000000111300031</row>
+                <row>11111111111111110000000111300001</row>
+                <row>11111111111111110000000111300001</row>
+                <row>00000000000000000000000111300000</row>
+                <row>00000000000000000000000111300000</row>
+                <row>11111111111111113333333111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>10000000000000000000001111111111</row>
+                <row>10000000000000000000001111111111</row>
+                <row>10000000000000000000001111111111</row>
+                <row>10000000000000000000001111111111</row>
+                <row>10000000000000001110001111111111</row>
+                <row>10000000000000001110001111111111</row>
+                <row>10000000000000111110001113331111</row>
+                <row>10000000000111111110001130003111</row>
+                <row>10000000000000001110000000000311</row>
+                <row>11110000000000001110000000000031</row>
+                <row>1111000000000000S010001110000031</row>
+                <row>11111111111100000010001100000000</row>
+                <row>11111111111100000010001100000000</row>
+                <row>00000000000000001110001100000000</row>
+                <row>00000000000000001110001100000031</row>
+                <row>11111111111111111113331133333311</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>
+

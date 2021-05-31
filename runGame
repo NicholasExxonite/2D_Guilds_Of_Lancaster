@@ -1,0 +1,2 @@
+./makeJar $1 game.jar
+java -jar ./release/game.jar

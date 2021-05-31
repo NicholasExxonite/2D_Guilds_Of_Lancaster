@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>1072</mapX>
+        <mapY>637</mapY>
+        <title>Pendle</title>
+        <foreground>#527500</foreground>
+    </meta>
+    <dialogue>
+        <line from="Pendle Witch">
+            Is there any reason why a Cartmelian is interrupting our crucial experiments? Unlike our neighbours
+            next door, we actually have work to do!
+        </line>
+        <line from="You">
+            So sorry. I have come to inform you that the White Rose Clan is invading soon, and I require the
+            brewing skills of the Pendle Witches to stop them again. Please...
+        </line>
+        <line from="Pendle Witch">
+            Since the war ended, we witches have stopped training for battle, but instead pushed the limits of
+            our understanding of the world - through the magic of alchemy.
+        </line>
+        <line from="You">
+            Understanding the world seems like it is a good thing - something that I am trying my best to do
+            right now. My master told me it could help me to stop the White Rose Clan. Could I be of any
+            assistance to your guild?
+        </line>
+        <line from="Pendle Witch">
+            Yes actually. We are in the middle of testing, what we are calling, the Pendle Potion. We'll strike you a
+            deal: help us test the potion and we'll let you have some.
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>1ggggggggggggggggggggggggggggggg</row>
+                <row>1ddddddddddd0000000000000P00dddd</row>
+                <row>1ddddddddddd0000000000000000ddd1</row>
+                <row>1ddddddddddd0000000000000000ddd1</row>
+                <row>11111111111100011111111111111111</row>
+                <row>10000000000000000V00000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10001000000000000000000000010001</row>
+                <row>10001111111111111111111111110001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>11111100000111111111111111111111</row>
+                <row>10000000000000000000000000000001</row>
+                <row>100000000000000000000000000000001</row>
+                <row>100001000001000000V00000000000000</row>
+                <row>10001111111110000000000000000000</row>
+                <row>111111111111110000000000000001111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>100000000000000000000000000G0001</row>
+                <row>10000000000000000000000000000000</row>
+                <row>10000000000000000000000000000000</row>
+                <row>100000000000000000000V0000011111</row>
+                <row>10000000000000000000000001111000</row>
+                <row>10000000000000000000000111100000</row>
+                <row>100000000000000G0000011110000000</row>
+                <row>10000000000000000001111110000000</row>
+                <row>10000000000000000111100110000000</row>
+                <row>100000000G0000011110000110011110</row>
+                <row>10000000000001111000000110111111</row>
+                <row>00000000000111100000000111100001</row>
+                <row>00000000011111100111100111000000</row>
+                <row>00000001111001101111110110000000</row>
+                <row>00000111100001111000011110000000</row>
+                <row>00011110000001110000001110000000</row>
+                <row>11111100000001100000000110000000</row>
+                <row>11111000000001100000000110000000</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>00000000000000001111110000000000</row>
+                <row>00000000000000001111110000000000</row>
+                <row>11111110000000010S0S010000000000</row>
+                <row>11100000000000000000000000000001</row>
+                <row>11100000000000010000010000000001</row>
+                <row>11100111111100011333110000001111</row>
+                <row>11100000000000011111110000000001</row>
+                <row>11100000000000011111111000000001</row>
+                <row>11111111100111111111111110000001</row>
+                <row>1110000000000000S000S00000000001</row>
+                <row>11100000000000000000000000000001</row>
+                <row>11100111111100000000000000001111</row>
+                <row>111000V0000000001111100000001111</row>
+                <row>11100000000000000000000000111111</row>
+                <row>11100000000000000000000011111111</row>
+                <row>11111111111111111111111111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>
+

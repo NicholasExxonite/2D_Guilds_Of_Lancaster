@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>1530</mapX>
+        <mapY>877</mapY>
+        <title>Lonsdale</title>
+        <foreground>#3e79b0</foreground>
+    </meta>
+    <dialogue>
+        <line from="You">
+            Captain, the White Rose Clan is back! We need your troops to man the walls!
+        </line>
+        <line from="Great Lonsdale Wall Captain">
+            Yes, some Geese grunts have taken our men, the White Rose Clan... they attacked at night. Only I
+            and some troops remain, there is no way we can defend the wall! They have my men held somewhere
+            on the wall!
+        </line>
+        <line from="You">
+            What happened? I thought you were the bravest man in the town? Why can't you rescue them
+            yourself?
+        </line>
+        <line from="Great Lonsdale Wall Captain">
+            I must admit, we have not been the same since the Battle of the Roses. Our men have grown slow
+            and lazy, and quite frankly, I am no longer an adequate captain. We are not prepared for a war -
+            I can only offer you the Roar of Lonsdale, use it to disable the Geese.
+        </line>
+        <line from="Great Lonsdale Wall Captain">
+            It only works when the user is courageous, something that we are not at the moment.
+        </line>
+        <line from="Great Lonsdale Wall Captain">
+            Please... you have to save them!
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>10000000000000000000000000000000</row> //Screen number 1
+                <row>100000000000000000000G0000000000</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000111130000003111111</row>
+                <row>10000011111111111111111111111111</row>
+                <row>10000000000000000000000000000001</row>
+                <row>11100000000000000000000000000001</row>
+                <row>11111000000000000000000000000001</row>
+                <row>11111111111110000011111111100001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>00000000000000000000000000011111</row>
+                <row>P00000000000000G0000000000011111</row>
+                <row>00000000000000000000000111111111</row>
+                <row>11111111111113000311111111111111</row>
+                <row>11111111111111111111111111111111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>00000000000000000000000000000001</row> //2
+                <row>00000000000000000000000000000001</row>
+                <row>11111111111111111111111111110001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>1S000000000000000000000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>11110000000000033311111113311111</row>
+                <row>11110000000000000000000000111111</row>
+                <row>11110000000000000000000000011111</row>
+                <row>11110000000000000000000000001111</row>
+                <row>1111000000S000000000000000000111</row>
+                <row>1111000000000000000000S000000011</row>
+                <row>111100V000000000V000000000000000</row>
+                <row>11110000011100000000000000000000</row>
+                <row>11110000011100000000011100000000</row>
+                <row>11111111111111111111111133333111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>11111111111111111111111111111111</row>
+                <row>13000000000000001333333333331111</row> //Screen number 1
+                <row>13000000000000000000000000031111</row>
+                <row>13000000000000000000000000031111</row>
+                <row>13000000000000001100000000011111</row>
+                <row>11111000000000001100000000001111</row>
+                <row>10000000000000001100000000001111</row>
+                <row>10000000000001111100003300001111</row>
+                <row>11111100000000001100000000000S01</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000011111100000000000001</row>
+                <row>10000000000000001100000000001111</row>
+                <row>11111100000000001133000000331111</row>
+                <row>10000000000000001100000000000001</row>
+                <row>00000000000011111100000000000001</row>
+                <row>00000000000011111100000000000000</row>
+                <row>00000000011111111100011100000000</row>
+                <row>11111111111111111133311133331111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>

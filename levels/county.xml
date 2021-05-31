@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <meta>
+        <mapX>217</mapX>
+        <mapY>382</mapY>
+        <title>County</title>
+        <foreground>#d4b000</foreground>
+    </meta>
+    <dialogue>
+        <line from="You">
+            Greetings, I am looking to learn the ways of the county druids. Unfortunately, the White Rose Clan
+            has returned and I am looking to stop them. Is there anyone I could talk to?
+        </line>
+        <line from="County Druid">
+            You sure can. I'm one of County's many druids. We will be happy to support your quest!
+        </line>
+        <line from="You">
+            You will actually follow me into battle? Right now, it's only me!
+        </line>
+        <line from="County Druid">
+            No, we have made an oath to never fight. We will not help with combat.
+        </line>
+        <line from="County Druid">
+            However, our guild has learned over the years to incorporate ourselves back into nature -
+            this is only natural of course.
+        </line>
+        <line from="You">
+            How exactly will this help me?
+        </line>
+        <line from="County Druid">
+            You have much to learn. Connect yourself to nature. Breath. You will see that you too can
+            access the Calm of County, it just takes practice to open up the connection.
+        </line>
+        <line from="County Druid">
+            Why don't you go traverse through the tree, and practice opening yourself up to nature!
+        </line>
+    </dialogue>
+    <screens>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>gggggggggggggggggggggggggggggggg</row>
+                <row>d0P00000000dS000d000000000000000</row>
+                <row>d0000000000d00000000000000000000</row>
+                <row>d0000000000d0000100000000000000d</row>
+                <row>111111111001dd00100000000000000d</row>
+                <row>1111d111100111001000000000000ggd</row>
+                <row>1111d1111001S000100000000000ddd1</row>
+                <row>1111d111100100000000000000000001</row>
+                <row>1111d111100100001000000ddd000001</row>
+                <row>11ddddd1100111111000000000000001</row>
+                <row>111ddd111001dddd1000000000000001</row>
+                <row>1111d1111001S0001000000000011111</row>
+                <row>11111111100100000000000000000001</row>
+                <row>11111111100100001000000000000001</row>
+                <row>10S00000000111111111111000000001</row>
+                <row>10000000000000000000000000000111</row>
+                <row>10000000000000000000000000000111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>gggggggggggggggggggggggggggggggg</row>
+                <row>0000000ddddddddddddddddddddddddd</row>
+                <row>0000000d3ddddddddddddddddddddddd</row>
+                <row>11110000000000000000000000000S01</row>
+                <row>11110000000000000000000000000001</row>
+                <row>11111110001111111000111110000111</row>
+                <row>11111110001111111000111000000111</row>
+                <row>11111111111111111111111000000111</row>
+                <row>11111000111111100110011000000S01</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000000000000000000000000000001</row>
+                <row>10000111111111111111111111111111</row>
+                <row>10000001111110000000000000000001</row>
+                <row>11100001000000000000000000000001</row>
+                <row>1S000001000000000000000000000001</row>
+                <row>10000000000000000000000000000000</row>
+                <row>10000000000003300000000330000000</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+        <screen>
+            <objects />
+            <tileMap>
+                <row>gggggggggggggggggggggggggggggggg</row>
+                <row>dddddddddddd00000000000000000000</row>
+                <row>d0000000000000000000000000000000</row>
+                <row>d0000000000000000000000000000000</row>
+                <row>d0S000000000000000dddddddddddddd</row>
+                <row>d0000000000000000000000000000000</row>
+                <row>d000S000000000000111111110000000</row>
+                <row>11100000000000000000000000000000</row>
+                <row>11100000000000011111111100000S00</row>
+                <row>11111000000000000000000000000000</row>
+                <row>111110000000011111111110000S0000</row>
+                <row>00000000000000000000000000000111</row>
+                <row>0000000000011111111111000S000111</row>
+                <row>00000000000000000000000000011111</row>
+                <row>00000000011111111111100000000111</row>
+                <row>00000000000000000000000001111111</row>
+                <row>00000111111111111111100000011111</row>
+                <row>11111111111111111111111111111111</row>
+            </tileMap>
+        </screen>
+    </screens>
+</root>
+
